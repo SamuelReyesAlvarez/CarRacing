@@ -1,5 +1,5 @@
 // @author: Samuel Reyes Alvarez
-// @version: 0.1 (01/08/2019)
+// @version: 1 (01/08/2019)
 
 const SPEED = 30;
 

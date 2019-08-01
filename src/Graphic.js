@@ -29,8 +29,8 @@ function printText(drawColor, fontStyle, text, leftX, topY) {
 }
 
 function drawTracks() {
-    for (let col = 0; col < TRACK_COLUMNS; col++) {
-        for (let row = 0; row < TRACK_ROWS; row++) {
+    for (let row = 0; row < TRACK_ROWS; row++) {
+        for (let col = 0; col < TRACK_COLUMNS; col++) {
             var trackLeftEdgeX = col * TRACK_WIDTH;
             var trackTopEdgeY = row * TRACK_HEIGHT;
 

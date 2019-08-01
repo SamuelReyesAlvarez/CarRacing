@@ -1,6 +1,6 @@
 const GROUNDSPEED_DECAY_MULT = 0.94;
 const DRIVE_POWER = 0.5;
-const REVERSE_POWER = 0.3;
+const REVERSE_POWER = 0.2;
 const TURN_RATE = 0.03;
 const MIN_TURN_SPEED = 0.5;
 

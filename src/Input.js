@@ -8,9 +8,9 @@ var keyHeldReverse;
 var keyHeldTurnLeft;
 var keyHeldTurnRight;
 
-function keyPressed(evt) {
-    setKeyHoldState(evt.keyCode, true);
-    evt.preventDefault();
+function keyPressed(event) {
+    setKeyHoldState(event.keyCode, true);
+    event.preventDefault();
 }
 
 function keyReleased(evt) {

@@ -13,10 +13,12 @@ function countLoadedImageAndLaunchIfReady() {
 
 function loadImages() {
     var imageList = [
-        {varName: carPic, file: "player1"},
+        {varName: carPic, file: "player"},
 
         {trackType: TRACK_ROAD, file: "road"},
-        {trackType: TRACK_WALL, file: "wall"}
+        {trackType: TRACK_WALL, file: "outer_wall"},
+        {trackType: TRACK_WALL, file: "inner_wall"},
+        {trackType: TRACK_WALL, file: "tree"}
     ];
 
     picsToLoad = imageList.length;
