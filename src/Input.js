@@ -25,20 +25,20 @@ function keyReleased(evt) {
 }
 
 function setKeyHoldState(keyCode, car, setTo) {
-    if (keyCode == car.controlKeyForGas) {
-        car.keyHeldGas = setTo;
-    }
-
-    if (keyCode == car.controlKeyForReverse) {
-        car.keyHeldReverse = setTo;
-    }
-
     if (keyCode == car.controlKeyForTurnLeft) {
         car.keyHeldTurnLeft = setTo;
     }
 
     if (keyCode == car.controlKeyForTurnRight) {
         car.keyHeldTurnRight = setTo;
+    }
+    
+    if (keyCode == car.controlKeyForGas) {
+        car.keyHeldGas = setTo;
+    }
+
+    if (keyCode == car.controlKeyForReverse) {
+        car.keyHeldReverse = setTo;
     }
 
     if (finished && keyCode == KEY_ENTER) {
